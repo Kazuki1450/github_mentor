@@ -33,3 +33,9 @@
 .main img:hover{
     background-color:  silver;
 }
+
+.main input{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px 20px;
+}
