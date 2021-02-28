@@ -1,3 +1,6 @@
+ul {
+    list-style: none;
+  }
 
 .header-right{
     text-align: right;
@@ -9,30 +12,26 @@
     vertical-align: middle;
     padding: 0 5px;　
 }
+
 .header-right img{
     width: 45px;
+    vertical-align: middle;
 }
+
 .header-right a:hover{
     text-decoration: underline;
 }
 
 
 .main{
+    border : solid 1px;
     padding: 50px 10px;
     text-align: center;
     font-size: 75px;
     color: grey;
 }
 
-.main img{
-    width: 8%;
-    margin: 15px 5%;
-    border-radius: 50%;
-    border: 1px solid silver;
-}
-.main img:hover{
-    background-color:  silver;
-}
+
 
 .main input{
     width: 40%;
@@ -42,3 +41,24 @@
 .main input:focus{
     outline: none;
 }
+
+
+.img_container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.img_container img{
+    width: 100px;
+    margin: 0px 30px;
+    border-radius: 50%;
+    border: 1px solid silver;
+}
+.img_container img:hover{
+    background-color:  silver;
+    
+}
+
+
+
