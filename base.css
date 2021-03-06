@@ -30,12 +30,12 @@ ul {
     font-size: 75px;
     color: grey;
 }
-@media screen and (min-width: 480px){
+@media screen and (min-width: 800px){
 .main > .engine_name1{
     display: none;
 }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 800px){
 .main > .engine_name2{
     display: none;
 }
